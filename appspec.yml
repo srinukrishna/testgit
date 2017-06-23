@@ -6,7 +6,6 @@ files:
     destination: /var/www/html/testgit
  permissions:
       -object:/var/www/html/testgit
-        pattern:"**"
         ownar:apache
         group:apache
         mode:777
