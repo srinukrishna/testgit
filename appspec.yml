@@ -9,6 +9,6 @@ files:
         pattern:"**"
         ownar:apache
         group:apache
-        mode:755
+        mode:777
         type:
         -file
