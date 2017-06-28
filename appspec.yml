@@ -3,11 +3,4 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/testgit
- permissions:
-      -object:/var/www/html/testgit
-        ownar:apache
-        group:apache
-        mode:777
-        type:
-        -file
+    destination: /var/www/html
